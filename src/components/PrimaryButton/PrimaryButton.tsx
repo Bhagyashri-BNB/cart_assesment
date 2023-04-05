@@ -7,7 +7,7 @@ import { useTheme } from '@mui/material/styles';
 
 interface PrimaryButtonProps {
     children : any,
-  onClick: () => void | undefined;
+  onClick: (e?: any)=> void ;
   fullWidth?: boolean;
   sx?: Object;
   type?: any;
